@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="maincss.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&display=swap');
+    </style>
+    <h1 id="title">Nick's Pizza Place Survey Form</h1>
+    <p id="description">Thank you for taking the time to review our restaraunt!</p>
+</head>
+
+<body>
+    <form id="survey-form">
+
+        <label id="name-label" for="name"><b>Name</b></label>
+        <input id="name" type="text" name=fullname placeholder="Name" required>
+        <br>
+        <label id="email-label" for="email"><b>Email</b></label>
+        <input id="email" type="email" name=email placeholder="Email" required>
+        <br>
+        <label id="number-label" for="number"><b>Age</b></label>
+        <input id="number" type="number" min="0" max="10000000000" placeholder="Age">
+        <br>
+
+        <h2>How was your experience?</h2>
+        <select id="dropdown" name="options">
+            <option value="review">Fantastic!</option>
+            <option value="review">It was good</option>
+            <option value="review">Could have been better</option>
+            <option value="review">Absolutely Terrible</option>
+        </select>
+
+        <h2> Did you dine-in or take-out? </h2>
+        <input type="radio" name="yesorno" value="yes"><label> Dine-in </label><br>
+        <input type="radio" name="yesorno" value="no"><label> Take-out </label><br>
+
+        <h2> Check all boxes that apply</h2>
+        <input type="checkbox" name="review" value="The food was prepared on-time"><label>The food was prepared
+            on-time </label><br>
+        <input type="checkbox" name="review" value="The table was clean"><label>The facility was clean </label><br>
+        <input type="checkbox" name="review" value="The order was correct"><label>The order was correct</label><br>
+        <input type="checkbox" name="review" value="The service was friendly"><label>The service was
+            friendly</label><br>
+
+
+        <h2>Additional Comments</h2>
+        <textarea name="comments" rows="10" cols="48"></textarea>
+        <br>
+        <br>
+        <input id="submit" type="submit">
+        <br>
+        <br>
+    </form>
+    <br>
+    <br>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+html {
+    border: solid;
+    border-width: 40pt;
+    border-color:rgb(37, 35, 37);
+    background-color:aquamarine;
+    font-family: 'Merriweather', serif;
+}
+
+#title {
+    display: block;
+    text-align:center;
+}
+#description {
+    display: block;
+    text-align:center;
+    margin-top:-10px;
+    text-decoration: underline;
+}
+#survey-form {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: solid;
+    border-width: 10pt;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-color:rgb(37, 35, 37);
+}
+#name-label {
+
+    font-size: 150%;
+    font-family: 'Merriweather', serif;
+}
+#name {
+    display: block;
+    
+}
+#email-label {
+    
+    font-size: 150%;
+    font-family: 'Merriweather', serif;
+}
+#email {
+    display: block;
+    
+}
+#number-label {
+    
+    font-size: 150%;
+    font-family: 'Merriweather', serif;
+}
+#number {
+    display: block;
+}
+#dropdown {
+    display: block;
+    
+}
+h2 {
+    display: block;
+}
+#submit {
+    margin-left: 250px;
+}
